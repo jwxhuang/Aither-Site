@@ -73,6 +73,7 @@ body, html {
         left: 0;
         position: fixed;
     }
+
     .content{
         position: fixed;
         margin-bottom: 50px;
@@ -81,7 +82,13 @@ body, html {
     .heroContainer {
         position: fixed;
     }
+    
+}
 
+@media (max-height: 400px){
 
+    .heroContainer{
+    display: none;    
+    }
     
 }
