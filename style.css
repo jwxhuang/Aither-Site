@@ -7,8 +7,6 @@ body, html {
   body{
     background: #000;
     width: 100%;
-    /* font-family: circe; */
-    font-size: 16px;
     font-family: helveticaneueltw20-ligh,sans-serif;
   }
 
@@ -51,7 +49,7 @@ body, html {
     z-index: 1;
     left: 0;
     bottom: 0;
-    width: 440px;
+    max-width: 440px;
     color: white;
     margin: 30px;
     margin-bottom: 20px;
@@ -68,9 +66,7 @@ body, html {
     margin-bottom: 20px;
 }
 
-
-
-@media (max-width: 600px){
+@media (max-width: 700px){
 
     .emailLink{
         left: 0;
