@@ -76,4 +76,9 @@ body, html {
         bottom: 30px;
     }
 
+    .heroContainer img{
+        width: 400px;
+        height: 300px;
+    }
+    
 }
