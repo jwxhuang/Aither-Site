@@ -71,12 +71,11 @@ body, html {
 
     .emailLink{
         left: 0;
-        margin-bottom: 30px;
-        position: relative;
+        position: fixed;
     }
     .content{
-        position: relative;
-
+        position: fixed;
+        margin-bottom: 50px;
     }
 
     .heroContainer {
