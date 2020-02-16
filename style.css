@@ -79,16 +79,13 @@ body, html {
         margin-bottom: 50px;
     }
 
-    .heroContainer {
-        position: fixed;
-    }
     
 }
 
 @media (max-height: 400px){
 
     .heroContainer{
-    display: none;    
+        display: none;    
     }
     
 }
